@@ -3,6 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # 데이터 베이스 접속 주소
+# 프로젝트의 루트 디렉토리에 저장
 SQLALCHEMY_DATABASE_URL = "sqlite:///./myapi.db"
 
 # create_engine, sessionmaker 등을 사용하는 것은 SQLAlchemy 데이터베이스를 사용하기 위해 따라야할 규칙
